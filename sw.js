@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
 		caches.open(version).then(function(cache) {
 			return cache.addAll([
 				'/tahir-tofiq/sw.js',
-				'/tahir-tofiq/site/script.js?v5',
+				'/tahir-tofiq/site/script.js?v6',
 				'/tahir-tofiq/site/style.css?v2',
 				'/tahir-tofiq/site/image/back.jpg',
 				'/tahir-tofiq/site/image/portraits/1.svg',
